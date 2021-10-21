@@ -3,7 +3,7 @@ import xlsxwriter
 
 workbook = xlsxwriter.Workbook('../hello_world.xlsx') # change output filename here
 worksheet = workbook.add_worksheet()
-template_sheet = ( # can be adapted for other .dat templates
+template_sheet = ( # column names can be changed
   ["ID"], ["TIME PERIOD"], ["SCAN"], ["TIME START"], ["TIME END"]
 )
 
