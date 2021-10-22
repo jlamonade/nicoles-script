@@ -2,7 +2,7 @@
 
 ## Installation
 
-  1. ```pip install requirements.txt```
+  1. ```pip install -r requirements.txt```
 
 ## Usage
 
